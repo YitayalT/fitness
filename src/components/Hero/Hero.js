@@ -18,8 +18,8 @@ function Hero() {
         {/* Hero Heading */}
         <div className="hero-text">
           <div>
-            <spam className="stroke-text">Shape</spam>
-            <spam>Your</spam>
+            <span className="stroke-text">Shape</span>
+            <span>Your</span>
           </div>
           <div>
             <span>Ideal Body</span>

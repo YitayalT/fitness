@@ -20,8 +20,8 @@ export const Plan = () => {
 
             <div className="features">
               {plan.features.map((feature, index) => (
-                <div className="feature">
-                  <img src={WhiteTick} alt="" srcset="" />
+                <div className="feature" key={index}>
+                  <img src={WhiteTick} alt=""  />
                   <span key={index}>{feature}</span>
                 </div>
               ))}
