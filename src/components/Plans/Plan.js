@@ -5,6 +5,8 @@ import WhiteTick from '../../assets/whiteTick.png'
 export const Plan = () => {
   return (
     <div className="plans-container">
+      <div className="blur plans-blur-1"></div>
+      <div className="blur plans-blur-2"></div>
       <div className="programs-header" style={{ gap: "2rem" }}>
         <span className="stroke-text"> READY TO START</span>
         <span>YOUR JOURNEY</span>
@@ -21,7 +23,7 @@ export const Plan = () => {
             <div className="features">
               {plan.features.map((feature, index) => (
                 <div className="feature" key={index}>
-                  <img src={WhiteTick} alt=""  />
+                  <img src={WhiteTick} alt="" />
                   <span key={index}>{feature}</span>
                 </div>
               ))}
