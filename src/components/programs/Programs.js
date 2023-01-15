@@ -18,7 +18,10 @@ function Programs() {
             {program.image}
             <span>{program.heading}</span>
             <span>{program.details}</span>
-            <div className="join-now"><span>Join Now</span><img src={rhightArrow} alt=""/></div>
+            <div className="join-now">
+              <span>Join Now</span>
+              <img src={rhightArrow} alt="" />
+            </div>
           </div>
         ))}
       </div>

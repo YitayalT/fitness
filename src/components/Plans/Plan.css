@@ -82,3 +82,9 @@ color: orange;
 .feature>img{
     width: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+    .plans{
+        flex-direction: column;
+    }
+}

@@ -10,7 +10,7 @@ import nike from "../../assets/nike.png";
 import tick from "../../assets/tick.png";
 function Reason() {
   return (
-    <div className="reasons" id="reasons">
+    <div className="reasons" id="reason">
       <div className="left-r">
         <img src={image1} alt="" />
         <img src={image2} alt="" />

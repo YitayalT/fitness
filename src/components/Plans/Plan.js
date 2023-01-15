@@ -13,7 +13,7 @@ export const Plan = () => {
         <span className="stroke-text">NOW WITH US</span>
       </div>
       {/* plans card */}
-      <div className="plans">
+      <div className="plans" id="plan">
         {plansData.map((plan, index) => (
           <div className="plan" key={index}>
             {plan.icon}
